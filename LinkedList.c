@@ -14,7 +14,7 @@ struct node
 	struct node *next;
 };
 struct node *head=NULL;       // *head= value at address, head= address
-void main()
+main()
 {
 	int choice;
 	clrscr();
