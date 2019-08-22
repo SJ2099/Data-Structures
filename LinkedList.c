@@ -172,7 +172,7 @@ void remove_specific()
 void display()
 {
 	struct node *temp=head;
-	while(temp->next!=NULL)
+	while(temp!=NULL)
 	{
 		printf("%d\t",temp->data);
 		temp=temp->next;
