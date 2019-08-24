@@ -130,7 +130,7 @@ int search(struct node *head, int ele)
 
 main()
 {
-	int choice,ele,x,sele;
+	int choice,ele,x,sele,b;
 	clrscr();
 	do
 	{
@@ -172,13 +172,16 @@ main()
 			printf("Choose a list:\n1.Linked List 1\n2.Linked List 2\n");
 			scanf("%d", &x);
 			if(x==1)
-			sele=search(head1,sele);
+			b=search(head1,sele);
 			else
-			sele=search(head2,sele);
-			if(sele==1)
+			b=search(head2,sele);
+			if(b==1)
 			printf("Element found\n");
 			else
 			printf("Element not found");
+			break;
+			default:
+			printf("Invalid choice\n");
 			break;
 		}
 	}while(choice!=8);
