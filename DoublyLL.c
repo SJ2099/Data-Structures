@@ -1,3 +1,6 @@
+/*Advantage of doubly linked list- no need of two pointers for operations like singly linked list
+Disadvantage of doubly linked list- more memory required by each node (as prev pointer added)*/
+
 #include<stdio.h>
 #include<conio.h>
 #include<malloc.h>
