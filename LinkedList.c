@@ -53,7 +53,7 @@ main()
 			display();
 			break;
 			default:
-			printf("Invaid choice\n");
+			printf("Invalid choice\n");
 			break;
 		}
 	}while(choice!=8);
