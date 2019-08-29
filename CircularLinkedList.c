@@ -61,7 +61,7 @@ void display()
 		printf("%d\t", temp->data);
 	}
 }
-main()
+int main()
 {
 	int choice;
 	clrscr();
@@ -86,4 +86,5 @@ main()
 		break;
 	}
 	}while(choice!=4);
+	return 0;
 }
