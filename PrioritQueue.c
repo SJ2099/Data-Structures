@@ -12,7 +12,7 @@ int x,pri;
 void insert(int x, int pri);
 void delete();
 void display();
-main()
+int main()
 {
 	int choice;
 	do
@@ -38,6 +38,7 @@ main()
 		break;
 	}
 	}while(choice!=4);
+	return 0;
 }
 void insert(int x, int pri)           //from rear end
 {
