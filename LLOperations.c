@@ -128,7 +128,7 @@ int search(struct node *head, int ele)
 	return 0;
 }
 
-main()
+int main()
 {
 	int choice,ele,x,sele,b;
 	clrscr();
@@ -185,4 +185,5 @@ main()
 			break;
 		}
 	}while(choice!=8);
+	return 0;
 }
