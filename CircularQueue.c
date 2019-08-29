@@ -10,7 +10,7 @@ void enqueue();
 void dequeue();
 void display();
 
-main()
+int main()
 {
 	int choice,x;
 	clrscr();
@@ -37,6 +37,7 @@ main()
 		break;
 	}
 	}while(choice!=4);
+	return 0;
 }
 
 void enqueue(int x)
