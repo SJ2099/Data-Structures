@@ -168,7 +168,7 @@ void DisplayRev()
 		temp=temp->prev;
 	}
 }
-main()
+int main()
 {
 	int choice,x;
 	clrscr();
@@ -221,4 +221,5 @@ main()
 		break;
 	}
 	}while(choice!=10);
+	return 0;
 }
