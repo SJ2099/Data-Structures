@@ -10,7 +10,7 @@ void insert_left();
 void delete_right();
 void delete_left();
 void display();
-main()
+int main()
 {
 	int choice;
 	clrscr();
@@ -32,6 +32,7 @@ main()
 		break;
 	}
 	}while(choice!=3);
+	return 0;
 }
 void output_restricted()
 {
