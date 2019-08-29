@@ -37,7 +37,7 @@ void display()
 		}
 	}
 }
-main()
+int main()
 {
 	int x,choice;
 	clrscr();
@@ -64,5 +64,6 @@ main()
 		break;
 	}
 	}while(choice!=4);
+	return 0;
 }
 	
