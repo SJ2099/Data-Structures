@@ -14,7 +14,7 @@ struct node
 	struct node *next;
 };
 struct node *head=NULL;       // *head= value at address, head= address
-main()
+int main()
 {
 	int choice;
 	clrscr();
@@ -57,6 +57,7 @@ main()
 			break;
 		}
 	}while(choice!=8);
+	return 0;
 }
 void insert_at_beginning()
 {
