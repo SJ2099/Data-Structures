@@ -60,7 +60,7 @@ void insert()
 	scanf("%d", &num);
 	printf("Enter position at which number is to be inserted:");
 	scanf("%d", &p);
-	for(i=n-1;i>=p;i--)                                  //shifting array elements with index > p to make empty space at p for insertion
+	for(i=n-1;i>=p;i--)                           //shifting array elements with index > p to make empty space at p for insertion
 	{
 		a[i+1]=a[i];
 	}
@@ -80,7 +80,7 @@ void insert_sorted()
 	{
 		if(a[i]>num)
 		{
-			for(j=n-1;j>=i;j--)						//shifting array elements greater than no. to be inserted to make empty space for insertion
+			for(j=n-1;j>=i;j--)   //shifting array elements greater than no. to be inserted to make empty space for insertion
 			{
 				a[j+1]=a[j];
 			}
@@ -189,7 +189,7 @@ void merge_sorted()
 				index++;
 			}
 	}
-	if(index_first==n)			                       //if elements of first array are over and second array are remaining
+	if(index_first==n)			                //if elements of first array are over and second array are remaining
 	{
 		while(index_second<n2)
 		{
