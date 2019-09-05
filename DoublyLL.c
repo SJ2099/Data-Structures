@@ -89,7 +89,7 @@ void DeleteFromTail()
 	}
 	printf("Node Deleted\n");
 }
-void InsertBefore(int x)        // error
+void InsertBefore(int x)         // error
 {
 	int loc;
 	struct node *newnode=GetNewNode(x);
