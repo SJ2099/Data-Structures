@@ -22,6 +22,7 @@ int count_leaf(struct node *);
 int count_internal(struct node *);
 int tree_height(struct node *);
 struct node* search(struct node *,int);
+
 int main()
 {
 	int choice, x;
